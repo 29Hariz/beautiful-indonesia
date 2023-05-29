@@ -6,9 +6,9 @@ handlers:
   static_files: img/\1
   upload: img/(.*\.(gif|png|jpg))
 
-- url: /asset/(.*\.(css))
-  static_files: asset/\1
-  upload: asset/(.*\.(css))
+- url: /css/(.*\.(css))
+  static_files: css/\1
+  upload: css/(.*\.(css))
 
 - url: /.*
   script: index.html
